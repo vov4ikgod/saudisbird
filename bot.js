@@ -19,6 +19,7 @@ Info
 SAUDIS BILLIONAIRE it's a NFT collection of 5555 saudis birds.
 Mint price: Free
 Mint data: TBA
+Network: ETH
 `));
 
 bot.hears('team', (ctx) => ctx.reply(`
