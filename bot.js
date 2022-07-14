@@ -2,7 +2,7 @@ const { Telegraf, Markup } = require('telegraf');
 const bot = new Telegraf('5538154901:AAFYXVlp0kHzeZMr2pROJpGVQDon0LpnHqA');
 
 bot.start((ctx) => ctx.reply(`Hello ${ctx.message.from.first_name} ${ctx.message.from.last_name}
-This is the official bot of the SleeFi project. 
+This is the official bot of the Saudis Billionaire project. 
 Here you can find out everything about the project.
 `,      Markup.keyboard([
             ['info', 'offical-link'],
